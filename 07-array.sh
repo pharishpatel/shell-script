@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PERSONS=("RAMESH" "HARISH" "KENNY")
+PERSON=("RAMESH" "HARISH" "KENNY")
 
 echo "First person: ${PERSON[0]}"
 
