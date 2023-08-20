@@ -16,13 +16,6 @@ else
 fi
 }
 
-if[ $USERID -ne 0 ]
-then 
-   echo "ERROR:: please run the script with root access"
-   exit 1
-# else 
-#     echo "INFO:: you are not user"
-fi
 
 # it is our responsibility to check installation succes or not
 yum install mysql -y
