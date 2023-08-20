@@ -7,7 +7,7 @@ USERID=$(id -u)
 VALIDATE(){
   #$1 --> it will receive the argument
 
-if [$USERID-ne 0 ]
+if [ $USERID -ne 0 ]
 then 
    echo "$2 ... FAILURE"
    exit 1
