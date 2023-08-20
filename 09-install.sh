@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # our programme goal is install mysql
 
