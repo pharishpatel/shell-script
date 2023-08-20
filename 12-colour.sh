@@ -14,7 +14,7 @@ N="\e[0m"
 
 VALIDATE(){
   #$1 --> it will receive the argument
-if [$1 -ne 0 ]
+if [ $1 -ne 0 ]
 then 
    echo -e "$2 ... $R FAILURE $N$"
    exit 1
